@@ -1,0 +1,4 @@
+- Add items to the cart
+- calculate total cost of the cart by adding cost and quantity of the items
+- change quantity which will reflect in total cost
+-
