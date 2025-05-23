@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.products_container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product_card {
+  padding: 1.25rem;
+  border: 2px solid;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.product_card > img {
+  width: 40%;
+}
+
+.product_card > h1 {
+  font-size: 1.5rem;
+}
+
+.pagination {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page_count {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: underline;
+}
+
+.page_count_direction_buttons {
+  text-decoration: none;
+}
+
+.page_count:hover {
+  color: rgba(0, 0, 0, 1);
+}

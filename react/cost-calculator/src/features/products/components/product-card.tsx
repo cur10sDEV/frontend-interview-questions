@@ -39,7 +39,6 @@ const ProductCard = ({ product, handleAddToCart }: IProductCardProps) => {
         </Button>
       </CardFooter>
     </Card>
-    // TODO: add product price
   );
 };
 
